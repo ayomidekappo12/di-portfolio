@@ -209,7 +209,7 @@ export default function SkillsSection() {
         </div>
 
         {/* Decorative */}
-        <div className="relative mx-auto mt-14 h-[420px] max-w-7xl gap-4 overflow-hidden">
+        <div className="relative mx-auto mt-14 h-105 max-w-7xl gap-4 overflow-hidden">
           <div className="absolute left-1/2 top-0 -translate-x-1/2">
             <Image
               src="./Winking Memoji 2.svg"
@@ -224,7 +224,7 @@ export default function SkillsSection() {
             <span
               key={skill.text}
               style={skill.style}
-              className="absolute w-auto h-auto md:w-[200px] md:h-[50] inline-flex items-center justify-center rounded-full border border-[#1B1B1B] bg-[#F5F5F0] mt-14 px-3 py-3 text-[12px] font-medium text-[#1B1B1B] whitespace-nowrap shadow-[2px_2px_0_0_#A5D553]"
+              className="absolute w-auto h-auto md:w-50 md:h-12.5 inline-flex items-center justify-center rounded-full border border-[#1B1B1B] bg-[#F5F5F0] mt-14 px-3 py-3 text-[12px] font-medium text-[#1B1B1B] whitespace-nowrap shadow-[2px_2px_0_0_#A5D553]"
             >
               {skill.text}
             </span>

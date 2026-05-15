@@ -99,7 +99,7 @@ export default function ProjectsSection() {
               </div>
 
               <div
-                className="order-1 md:order-2 aspect-4/3 w-full rounded-2xl shadow-[0_20px_60px_-20px_rgba(0,0,0,0.25)] bg-cover bg-center"
+                className="order-1 md:order-2 aspect-4/3 overflow-hidden rounded-4xl bg-[#FFF] shadow-[2px_2px_0px_0px_rgba(13,13,13,0.10)] bg-cover bg-center"
                 style={{
                   backgroundImage: `url('${project.img}')`,
                 }}

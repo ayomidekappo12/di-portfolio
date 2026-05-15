@@ -55,7 +55,7 @@ She's reliable, collaborative, and genuinely committed to achieving great result
           ].map((t, index) => (
             <div
               key={t.name}
-              className={`flex flex-col justify-between px-4 md:px-10 ${
+              className={`flex flex-col justify-between py-4 px-4 md:px-10 rounded-3xl bg-[#FFF] md:rounded-none md:bg-transparent ${
                 index === 0
                   ? "md:border-r md:border-[#D9D9D9]"
                   : "md:pl-12 mt-16 md:mt-0"
