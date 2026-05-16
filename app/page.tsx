@@ -1,12 +1,12 @@
 "use client";
 
-import HeroSection from "@/app/component/sections/HeroSection";
-import ProjectsSection from "@/app/component/sections/ProjectsSection";
-import SkillsSection from "@/app/component/sections/SkillsSection";
-import DesignPhilosophySection from "@/app/component/sections/DesignPhilosophySection";
-import TestimonialsSection from "@/app/component/sections/TestimonialsSection";
-import AboutSection from "@/app/component/sections/AboutSection";
-import FooterSection from "@/app/component/sections/FooterSection";
+import HeroSection from "@/app/component/landing-page-sections/HeroSection";
+import ProjectsSection from "@/app/component/landing-page-sections/ProjectsSection";
+import SkillsSection from "@/app/component/landing-page-sections/SkillsSection";
+import DesignPhilosophySection from "@/app/component/landing-page-sections/DesignPhilosophySection";
+import TestimonialsSection from "@/app/component/landing-page-sections/TestimonialsSection";
+import AboutSection from "@/app/component/landing-page-sections/AboutSection";
+import FooterSection from "@/app/component/landing-page-sections/FooterSection";
 
 export default function HomePage() {
   return (
