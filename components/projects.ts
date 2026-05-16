@@ -22,11 +22,11 @@ export const projects: ProjectItem[] = [
     actions: [
       {
         label: "Watch video case study",
-        href: "/component/project-case-study",
+        href: "/case-study",
       },
       {
         label: "See how this was solved",
-        href: "/component/project-case-study",
+        href: "/case-study",
       },
     ],
     img: "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1778772554/Frame_2147229349_cge2z3.svg",
@@ -38,11 +38,11 @@ export const projects: ProjectItem[] = [
     actions: [
       {
         label: "Watch video case study",
-        href: "/projects/reducing-online-case-study",
+        href: "/case-study",
       },
       {
         label: "See how this was solved",
-        href: "/projects/reducing-online-case-study",
+        href: "/case-study",
       },
     ],
     img: "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1778772545/Thumbnail_ne3v2b.svg",
@@ -54,11 +54,11 @@ export const projects: ProjectItem[] = [
     actions: [
       {
         label: "Watch video case study",
-        href: "/component/project-case-study",
+        href: "/case-study",
       },
       {
         label: "Read the process",
-        href: "/component/project-case-study",
+        href: "/case-study",
       },
     ],
     img: "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1778772545/image_59_zkrvqf.svg",
@@ -71,9 +71,9 @@ export const projects: ProjectItem[] = [
     actions: [
       {
         label: "Watch video case study",
-        href: "/component/project-case-study",
+        href: "/case-study",
       },
-      { label: "Find out how", href: "/component/project-case-study" },
+      { label: "Find out how", href: "/case-study" },
     ],
     img: "https://res.cloudinary.com/dxvf9uqwe/image/upload/v1778772548/Thumbnail_1_mx5x5o.svg",
   },
