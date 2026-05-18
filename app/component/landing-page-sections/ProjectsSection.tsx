@@ -8,7 +8,14 @@ export default function ProjectsSection() {
     <section id="projects" className="px-6 py-12 md:py-16 bg-[#F2F0E9]">
       <div className="mx-auto max-w-5xl">
         <Pill tone="dark">
-          <span>Projects</span>
+          <Image
+            src="./briefcase-07.svg"
+            alt="Divinefortune's mail Logo"
+            width={16}
+            height={16}
+            className="rounded-full"
+          />
+          <span className="px-2">Projects</span>
         </Pill>
 
         <div className="mt-10 space-y-16 md:space-y-24">

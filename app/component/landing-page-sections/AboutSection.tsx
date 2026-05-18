@@ -4,16 +4,13 @@ export default function AboutSection() {
   return (
     <section className="px-6 py-24">
       <div className="mx-auto grid max-w-6xl items-start gap-14 md:grid-cols-[320px_1fr]">
-        {/* LEFT SIDE */}
         <div className="relative">
-          {/* Heading */}
           <h2 className="text-[48px] font-semibold leading-[0.95] tracking-[-2px] text-black">
             Hello.
             <br />
             I&apos;m Divinefortune
           </h2>
 
-          {/* Image */}
           <div className="relative mt-8 h-75 w-75 rotate-[-5deg] overflow-hidden rounded-4xl bg-[#FFF] shadow-[2px_2px_0px_0px_rgba(13,13,13,0.10)]">
             <Image
               src="https://res.cloudinary.com/dxvf9uqwe/image/upload/v1778841215/Variant_1_6ZCFq2oDqFpYGI9m864833Gzft8.jpg_vuujuq.svg"
@@ -65,12 +62,10 @@ export default function AboutSection() {
             </p>
           </div>
 
-          {/* Buttons */}
           <div className="mt-10 flex flex-wrap items-center gap-4">
-            {/* Copy Email */}
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 rounded-full bg-[#1F1F1F] px-5 py-3 text-sm font-medium text-white shadow-sm transition hover:opacity-90"
+              className="inline-flex items-center gap-2 rounded-full bg-pill md:bg-[#1F1F1F] px-5 py-3 text-sm font-medium text-white shadow-sm transition hover:opacity-90"
             >
               <Image
                 src="./clip.svg"
@@ -80,8 +75,6 @@ export default function AboutSection() {
               />
               <span>Copy email</span>
             </a>
-
-            {/* LinkedIn */}
             <a
               href="#contact"
               className="inline-flex items-center gap-2 rounded-full border border-[#BDBDBD] bg-transparent px-5 py-3 text-sm font-medium text-[#4D4D4D] transition hover:bg-black/5"

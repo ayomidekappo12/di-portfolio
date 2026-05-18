@@ -17,7 +17,7 @@ export function Pill({ children, tone = "dark" }: PillProps) {
 
   return (
     <span
-      className={`inline-flex items-center gap-1.5 rounded-full px-5 py-2 text-xs font-medium ${styles[tone]}`}
+      className={`inline-flex items-center gap-1.2 rounded-full px-4 py-2.5 text-xs font-medium ${styles[tone]}`}
     >
       {children}
     </span>

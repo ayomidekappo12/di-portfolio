@@ -15,7 +15,7 @@ export default function DesignPhilosophySection() {
             className="rounded-full"
           />
 
-          <span>My Design Philosophy</span>
+          <span className="px-2">My Design Philosophy</span>
         </Pill></div>
 
         <div className="relative mt-24">

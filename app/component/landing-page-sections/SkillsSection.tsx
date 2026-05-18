@@ -207,8 +207,6 @@ export default function SkillsSection() {
             </p>
           </div>
         </div>
-
-        {/* Decorative */}
         <div className="relative mx-auto mt-14 h-105 max-w-7xl gap-4 overflow-hidden">
           <div className="absolute left-1/2 top-0 -translate-x-1/2">
             <Image

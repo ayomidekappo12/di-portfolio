@@ -2,7 +2,6 @@ export default function TestimonialsSection() {
   return (
     <section className="px-6 py-24">
       <div className="mx-auto max-w-6xl">
-        {/* Pill */}
         <div className="flex justify-center">
           <div className="inline-flex items-center gap-2 rounded-full bg-[#003B36] px-5 py-2 text-sm font-medium text-[#E4FFF2]">
             <svg
@@ -29,7 +28,6 @@ export default function TestimonialsSection() {
           </div>
         </div>
 
-        {/* Testimonials */}
         <div className="mt-20 grid md:grid-cols-2">
           {[
             {

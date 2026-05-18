@@ -20,7 +20,6 @@ export default function FooterSection() {
     <footer id="contact" className="px-6 py-16 text-white">
       <div className="mx-auto max-w-6xl rounded-[28px] bg-[#161616] px-14 py-16">
         <div className="flex flex-col justify-between gap-10 md:flex-row md:items-start">
-          {/* LEFT SIDE */}
           <div className="space-y-4">
             <div className="flex items-center gap-2 text-[13px] text-white/80">
               <Image
@@ -70,8 +69,6 @@ export default function FooterSection() {
             </a>
           </div>
         </div>
-
-        {/* BOTTOM */}
         <div className="mt-14 text-[12px] text-white/30">©2025</div>
       </div>
     </footer>
